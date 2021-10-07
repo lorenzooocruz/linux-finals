@@ -66,7 +66,7 @@ echo "!!Installing WordPress!!"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!"
 yum install -y php-gd
 yum install -y tar
-yum install -y wget
+yum install -y wgetls -la
 systemctl restart httpd 
 wget http://wordpress.org/latest.tar.gz
 tar xzvf latest.tar.gz
